@@ -1,3 +1,23 @@
+# For installing Node JS and 1st time application run:
+
+# powershell:
+
+fnm env --use-on-cd | Out-String | Invoke-Expression
+
+fnm use --install-if-missing 22
+
+
+# if you're running it for 1st time 
+npm i
+
+# run app:
+npm run dev
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
